@@ -11,7 +11,6 @@ export class SnakeAction {
             this.game.ball.changeBallCoordinate();
             this.game.score.addScore();
             this.game.snake.addBlocks();
-            
         }
         if (coordinate.x < 0 || coordinate.x > 190 || coordinate.y < 0 || coordinate.y > 190) {
             socket.emit('return_game');
