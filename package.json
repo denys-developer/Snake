@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/node": "^12.12.14",
     "@types/react": "^16.9.13",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mobx": "^5.15.0",
     "mobx-react": "^6.1.4",
     "react": "^16.12.0",
